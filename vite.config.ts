@@ -6,6 +6,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   resolve: {
+    //configration to use @ instead of ../../../src
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },
 });
