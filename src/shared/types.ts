@@ -4,3 +4,9 @@ export enum SelectedPage {
   OurClasses = "ourclasses",
   ContactUs = "contactus",
 }
+
+export type BenefitType = {
+  icon: JSX.Element;
+  title: string;
+  description: string;
+};
